@@ -1,0 +1,17 @@
+book_id,title,author,category,total_copies,available_copies,borrow_count,rating,return_days
+B001,Atomic Habits,James Clear,Self Help,8,2,142,4.8,3
+B002,The Psychology of Money,Morgan Housel,Finance,6,1,118,4.7,2
+B003,Clean Code,Robert C. Martin,Technology,5,0,96,4.6,5
+B004,Python Crash Course,Eric Matthes,Technology,7,3,89,4.7,1
+B005,Data Science from Scratch,Joel Grus,Data Science,4,1,72,4.3,4
+B006,The Alchemist,Paulo Coelho,Fiction,9,5,68,4.4,2
+B007,Rich Dad Poor Dad,Robert Kiyosaki,Finance,6,4,64,4.2,1
+B008,Deep Work,Cal Newport,Productivity,4,0,61,4.5,6
+B009,Introduction to Algorithms,Cormen et al.,Technology,3,1,55,4.6,3
+B010,Ikigai,Héctor García,Self Help,7,6,42,4.1,1
+B011,Machine Learning Yearning,Andrew Ng,Data Science,3,2,39,4.5,2
+B012,The Great Gatsby,F. Scott Fitzgerald,Fiction,5,4,12,3.9,1
+B013,Database System Concepts,Silberschatz et al.,Technology,4,3,10,4.0,2
+B014,Wings of Fire,A. P. J. Abdul Kalam,Biography,6,5,9,4.8,1
+B015,"Thinking, Fast and Slow",Daniel Kahneman,Psychology,3,3,8,4.2,1
+B016,Sapiens,Yuval Noah Harari,History,4,4,6,4.4,1
