@@ -1,17 +1,352 @@
 book_id,title,author,category,total_copies,available_copies,borrow_count,rating,return_days
-B001,Atomic Habits,James Clear,Self Help,8,2,142,4.8,3
-B002,The Psychology of Money,Morgan Housel,Finance,6,1,118,4.7,2
-B003,Clean Code,Robert C. Martin,Technology,5,0,96,4.6,5
-B004,Python Crash Course,Eric Matthes,Technology,7,3,89,4.7,1
-B005,Data Science from Scratch,Joel Grus,Data Science,4,1,72,4.3,4
-B006,The Alchemist,Paulo Coelho,Fiction,9,5,68,4.4,2
-B007,Rich Dad Poor Dad,Robert Kiyosaki,Finance,6,4,64,4.2,1
-B008,Deep Work,Cal Newport,Productivity,4,0,61,4.5,6
-B009,Introduction to Algorithms,Cormen et al.,Technology,3,1,55,4.6,3
-B010,Ikigai,Héctor García,Self Help,7,6,42,4.1,1
-B011,Machine Learning Yearning,Andrew Ng,Data Science,3,2,39,4.5,2
-B012,The Great Gatsby,F. Scott Fitzgerald,Fiction,5,4,12,3.9,1
-B013,Database System Concepts,Silberschatz et al.,Technology,4,3,10,4.0,2
-B014,Wings of Fire,A. P. J. Abdul Kalam,Biography,6,5,9,4.8,1
-B015,"Thinking, Fast and Slow",Daniel Kahneman,Psychology,3,3,8,4.2,1
-B016,Sapiens,Yuval Noah Harari,History,4,4,6,4.4,1
+B001,Where the Crawdads Sing,Delia Owens,Fiction & Literature,6,1,163,4.8,3
+B002,The Girl on the Train,Paula Hawkins,Fiction & Literature,6,1,159,4.1,2
+B003,Becoming,Michelle Obama,Biography & History,8,1,152,4.8,3
+B004,Gone Girl,Gillian Flynn,Fiction & Literature,8,0,152,4.0,7
+B005,The Fault in Our Stars,John Green,Young Readers & Fantasy,7,0,147,4.7,4
+B006,The Nightingale: A Novel,Kristin Hannah,Fiction & Literature,6,0,148,4.8,6
+B007,Fifty Shades of Grey: Book One of the Fifty Shades Trilogy (Fifty Shades of Grey Series),E L James,Fiction & Literature,7,0,146,3.8,6
+B008,The Martian,Andy Weir,Fiction & Literature,6,1,141,4.7,3
+B009,All the Light We Cannot See,Anthony Doerr,Fiction & Literature,7,1,145,4.6,4
+B010,The Alchemist,Paulo Coelho,Fiction & Literature,8,0,142,4.7,5
+B011,The Goldfinch: A Novel (Pulitzer Prize for Fiction),Donna Tartt,Fiction & Literature,8,1,141,3.9,4
+B012,The Hunger Games (Book 1),Suzanne Collins,Young Readers & Fantasy,8,0,137,4.7,5
+B013,The Hunger Games,Suzanne Collins,Young Readers & Fantasy,6,0,143,4.7,4
+B014,The Wonky Donkey,Craig Smith,Fiction & Literature,6,1,139,4.8,2
+B015,"Unbroken: A World War II Story of Survival, Resilience, and Redemption",Laura Hillenbrand,Biography & History,7,0,136,4.8,4
+B016,Inferno,Dan Brown,Fiction & Literature,7,1,139,4.1,4
+B017,The Handmaid's Tale,Margaret Atwood,Fiction & Literature,8,1,141,4.3,1
+B018,Educated: A Memoir,Tara Westover,Biography & History,8,0,141,4.7,3
+B019,The Silent Patient,Alex Michaelides,Fiction & Literature,7,1,137,4.5,4
+B020,Divergent,Veronica Roth,Young Readers & Fantasy,7,0,134,4.6,4
+B021,Mockingjay (The Hunger Games),Suzanne Collins,Young Readers & Fantasy,7,0,136,4.5,4
+B022,The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life,Mark Manson,Self Help & Psychology,7,0,134,4.6,6
+B023,To Kill a Mockingbird,Harper Lee,Fiction & Literature,8,1,138,4.8,3
+B024,Little Fires Everywhere,Celeste Ng,Fiction & Literature,8,1,137,4.5,1
+B025,Grey: Fifty Shades of Grey as Told by Christian (Fifty Shades of Grey Series),E L James,Fiction & Literature,6,1,137,4.4,1
+B026,The 5 Love Languages: The Secret to Love that Lasts,Gary Chapman,Self Help & Psychology,8,0,133,4.8,4
+B027,How to Win Friends & Influence People,Dale Carnegie,General Non-Fiction,6,0,132,4.7,7
+B028,"Harry Potter and the Cursed Child, Parts 1 & 2, Special Rehearsal Edition Script",J.K. Rowling,Young Readers & Fantasy,6,0,137,4.0,3
+B029,A Man Called Ove: A Novel,Fredrik Backman,Fiction & Literature,6,1,137,4.6,1
+B030,Fifty Shades Darker,E L James,Fiction & Literature,8,1,134,4.4,3
+B031,The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics,Daniel James Brown,General Non-Fiction,8,1,130,4.8,1
+B032,The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book),Don Miguel Ruiz,Self Help & Psychology,6,0,132,4.7,4
+B033,The Book Thief,Markus Zusak,Fiction & Literature,8,0,130,4.6,6
+B034,Sycamore Row (Jake Brigance),John Grisham,Fiction & Literature,6,1,131,4.5,3
+B035,"School Zone - Big Preschool Workbook - Ages 4 and Up, Colors, Shapes, Numbers 1-10, Alphabet, Pre-Writing, Pre-Reading…",School Zone,General Non-Fiction,7,1,136,4.8,1
+B036,The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing,Marie Kondō,General Non-Fiction,7,1,132,4.5,3
+B037,Catching Fire (The Hunger Games),Suzanne Collins,Young Readers & Fantasy,8,0,130,4.7,5
+B038,Ready Player One: A Novel,Ernest Cline,Fiction & Literature,6,0,130,4.6,5
+B039,"Girl, Wash Your Face: Stop Believing the Lies About Who You Are So You Can Become Who You Were Meant to Be",Rachel Hollis,General Non-Fiction,8,1,130,4.6,2
+B040,Orphan Train,Christina Baker Kline,Fiction & Literature,6,1,130,4.6,3
+B041,"Oh, the Places You'll Go!",Dr. Seuss,Young Readers & Fantasy,6,1,135,4.9,1
+B042,Wonder,R. J. Palacio,Young Readers & Fantasy,7,0,132,4.8,7
+B043,1984 (Signet Classics),George Orwell,Fiction & Literature,8,0,135,4.7,6
+B044,Fifty Shades Freed: Book Three of the Fifty Shades Trilogy (Fifty Shades of Grey Series) (English Edition),E L James,Fiction & Literature,8,1,132,4.5,3
+B045,A Game of Thrones / A Clash of Kings / A Storm of Swords / A Feast of Crows / A Dance with Dragons,George R. R. Martin,Fiction & Literature,7,0,132,4.7,7
+B046,The Shack: Where Tragedy Confronts Eternity,William P. Young,Fiction & Literature,6,0,132,4.6,6
+B047,A Gentleman in Moscow: A Novel,Amor Towles,Fiction & Literature,7,0,130,4.7,5
+B048,"Harry Potter and the Chamber of Secrets: The Illustrated Edition (Harry Potter, Book 2)",J.K. Rowling,Young Readers & Fantasy,8,1,128,4.9,1
+B049,Jesus Calling: Enjoying Peace in His Presence (with Scripture References),Sarah Young,General Non-Fiction,7,0,133,4.9,3
+B050,The Very Hungry Caterpillar,Eric Carle,Young Readers & Fantasy,8,0,127,4.9,3
+B051,12 Rules for Life: An Antidote to Chaos,Jordan B. Peterson,Self Help & Psychology,6,0,129,4.7,5
+B052,Origin: A Novel (Robert Langdon),Dan Brown,Fiction & Literature,7,1,132,4.3,3
+B053,Love You Forever,Robert Munsch,Fiction & Literature,6,1,126,4.8,1
+B054,Milk and Honey,Rupi Kaur,General Non-Fiction,6,2,127,4.7,3
+B055,Divergent / Insurgent,Veronica Roth,Young Readers & Fantasy,5,1,130,4.5,2
+B056,10-Day Green Smoothie Cleanse,JJ Smith,Health & Wellness,6,2,125,4.7,3
+B057,First 100 Words,Roger Priddy,General Non-Fiction,7,1,126,4.7,1
+B058,Wild: From Lost to Found on the Pacific Crest Trail,Cheryl Strayed,General Non-Fiction,5,2,124,4.4,1
+B059,Player's Handbook (Dungeons & Dragons),Wizards RPG Team,Fiction & Literature,6,2,125,4.8,3
+B060,The Hunger Games Trilogy Boxed Set (1),Suzanne Collins,Young Readers & Fantasy,5,1,128,4.8,3
+B061,If Animals Kissed Good Night,Ann Whitford Paul,Fiction & Literature,6,1,129,4.8,4
+B062,Can't Hurt Me: Master Your Mind and Defy the Odds,David Goggins,General Non-Fiction,6,2,124,4.8,4
+B063,American Sniper: The Autobiography of the Most Lethal Sniper in U.S. Military History,Chris Kyle,Biography & History,7,2,129,4.6,1
+B064,Doctor Sleep: A Novel,Stephen King,Fiction & Literature,6,1,129,4.7,4
+B065,Heaven is for Real: A Little Boy's Astounding Story of His Trip to Heaven and Back,Todd Burpo,General Non-Fiction,6,2,124,4.7,3
+B066,Hillbilly Elegy: A Memoir of a Family and Culture in Crisis,J. D. Vance,Biography & History,5,1,128,4.4,4
+B067,Go Set a Watchman: A Novel,Harper Lee,Fiction & Literature,6,1,124,3.6,3
+B068,The Racketeer,John Grisham,Fiction & Literature,7,2,124,4.3,2
+B069,"Brown Bear, Brown Bear, What Do You See?",Bill Martin Jr.,Fiction & Literature,7,2,123,4.9,4
+B070,You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life,Jen Sincero,Self Help & Psychology,5,1,127,4.7,4
+B071,Giraffes Can't Dance,Giles Andreae,Fiction & Literature,6,1,126,4.8,3
+B072,Fifty Shades Trilogy (Fifty Shades of Grey / Fifty Shades Darker / Fifty Shades Freed),E L James,Fiction & Literature,5,1,123,4.5,2
+B073,The Help,Kathryn Stockett,Fiction & Literature,7,2,126,4.8,2
+B074,When Breath Becomes Air,Paul Kalanithi,General Non-Fiction,7,2,122,4.8,4
+B075,Fire and Fury: Inside the Trump White House,Michael Wolff,General Non-Fiction,5,2,120,4.2,1
+B076,Proof of Heaven: A Neurosurgeon's Journey into the Afterlife,Eben Alexander,General Non-Fiction,5,1,125,4.3,4
+B077,The Guardians: A Novel,John Grisham,Fiction & Literature,7,1,122,4.5,1
+B078,Harry Potter Paperback Box Set (Books 1-7),J. K. Rowling,Young Readers & Fantasy,7,2,121,4.8,4
+B079,The Complete Ketogenic Diet for Beginners: Your Essential Guide to Living the Keto Lifestyle,Amy Ramos,Health & Wellness,5,2,124,4.3,1
+B080,A Dance with Dragons (A Song of Ice and Fire),George R. R. Martin,Fiction & Literature,6,2,121,4.4,3
+B081,Dog Man: Fetch-22: From the Creator of Captain Underpants (Dog Man #8),Dav Pilkey,Young Readers & Fantasy,5,2,123,4.9,1
+B082,"The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",Bessel van der Kolk M.D.,General Non-Fiction,6,2,122,4.8,2
+B083,And the Mountains Echoed,Khaled Hosseini,Fiction & Literature,6,2,118,4.3,4
+B084,"Last Week Tonight with John Oliver Presents A Day in the Life of Marlon Bundo (Better Bundo Book, LGBT Childrens Book)",Jill Twiss,Fiction & Literature,5,1,121,4.9,4
+B085,The Art of Racing in the Rain: A Novel,Garth Stein,Fiction & Literature,6,1,117,4.7,4
+B086,"Twilight (The Twilight Saga, Book 1)",Stephenie Meyer,Young Readers & Fantasy,7,2,120,4.7,1
+B087,The Great Gatsby,F. Scott Fitzgerald,Fiction & Literature,7,2,117,4.4,2
+B088,The Total Money Makeover: Classic Edition: A Proven Plan for Financial Fitness,Dave Ramsey,Business & Finance,6,2,122,4.7,2
+B089,Killing Jesus (Bill O'Reilly's Killing Series),Bill O'Reilly,Biography & History,6,1,121,4.5,3
+B090,Thug Kitchen: The Official Cookbook: Eat Like You Give a F*ck (Thug Kitchen Cookbooks),Thug Kitchen,Health & Wellness,7,2,121,4.6,2
+B091,Being Mortal: Medicine and What Matters in the End,Atul Gawande,General Non-Fiction,6,1,120,4.8,4
+B092,The Harbinger: The Ancient Mystery that Holds the Secret of America's Future,Jonathan Cahn,Self Help & Psychology,5,1,122,4.6,4
+B093,"Thinking, Fast and Slow",Daniel Kahneman,Self Help & Psychology,7,2,119,4.6,4
+B094,Killing Patton: The Strange Death of World War II's Most Audacious General (Bill O'Reilly's Killing Series),Bill O'Reilly,Biography & History,5,2,115,4.6,1
+B095,Dear Zoo: A Lift-the-Flap Book,Rod Campbell,Fiction & Literature,5,2,120,4.8,3
+B096,P is for Potty! (Sesame Street) (Lift-the-Flap),Naomi Kleinberg,General Non-Fiction,5,1,118,4.7,4
+B097,The Power of Habit: Why We Do What We Do in Life and Business,Charles Duhigg,Self Help & Psychology,5,2,119,4.6,1
+B098,Winter of the World: Book Two of the Century Trilogy,Ken Follett,Fiction & Literature,7,1,121,4.5,4
+B099,Fahrenheit 451,Ray Bradbury,Fiction & Literature,5,1,121,4.6,4
+B100,The Girl with the Dragon Tattoo (Millennium Series),Stieg Larsson,Fiction & Literature,5,2,121,4.4,4
+B101,Outliers: The Story of Success,Malcolm Gladwell,Business & Finance,5,2,115,4.6,3
+B102,Calm the F*ck Down: An Irreverent Adult Coloring Book (Irreverent Book Series),Sasha O'Hara,Young Readers & Fantasy,6,2,119,4.6,4
+B103,Make Your Bed: Little Things That Can Change Your Life...And Maybe the World,Admiral William H. McRaven,Self Help & Psychology,6,2,119,4.7,2
+B104,The President Is Missing: A Novel,James Patterson,Fiction & Literature,6,2,120,4.3,3
+B105,Good Days Start With Gratitude: A 52 Week Guide To Cultivate An Attitude Of Gratitude: Gratitude Journal,Pretty Simple Press,General Non-Fiction,6,2,115,4.6,1
+B106,The Maze Runner (Book 1),James Dashner,Fiction & Literature,5,2,114,4.5,2
+B107,Between the World and Me,Ta-Nehisi Coates,General Non-Fiction,5,2,120,4.7,3
+B108,"Harry Potter and the Sorcerer's Stone: The Illustrated Edition (Harry Potter, Book 1)",J.K. Rowling,Young Readers & Fantasy,7,2,115,4.9,1
+B109,Quiet: The Power of Introverts in a World That Can't Stop Talking,Susan Cain,Self Help & Psychology,6,2,118,4.6,1
+B110,Where the Wild Things Are,Maurice Sendak,Fiction & Literature,5,1,116,4.8,4
+B111,The Hate U Give,Angie Thomas,Fiction & Literature,6,2,118,4.8,3
+B112,Magnolia Table: A Collection of Recipes for Gathering,Joanna Gaines,Health & Wellness,6,2,119,4.8,4
+B113,The Pout-Pout Fish,Deborah Diesen,Fiction & Literature,7,2,119,4.8,3
+B114,"Breaking Dawn (The Twilight Saga, Book 4)",Stephenie Meyer,Young Readers & Fantasy,6,2,113,4.6,2
+B115,"I Am Confident, Brave & Beautiful: A Coloring Book for Girls",Hopscotch Girls,Young Readers & Fantasy,6,2,117,4.8,2
+B116,Go the F**k to Sleep,Adam Mansbach,Fiction & Literature,5,2,118,4.8,2
+B117,Wrecking Ball (Diary of a Wimpy Kid Book 14),Jeff Kinney,Young Readers & Fantasy,6,2,118,4.9,4
+B118,Strange Planet (Strange Planet Series),Nathan W. Pyle,Fiction & Literature,5,1,116,4.9,4
+B119,Astrophysics for People in a Hurry,Neil deGrasse Tyson,Science & Technology,5,2,115,4.7,4
+B120,The Casual Vacancy,J.K. Rowling,Young Readers & Fantasy,5,2,117,3.3,3
+B121,"Secret Garden: An Inky Treasure Hunt and Coloring Book (For Adults, mindfulness coloring)",Johanna Basford,Young Readers & Fantasy,7,1,114,4.7,2
+B122,Killing Lincoln: The Shocking Assassination that Changed America Forever (Bill O'Reilly's Killing Series),Bill O'Reilly,Biography & History,6,2,115,4.7,3
+B123,The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change,Stephen R. Covey,Self Help & Psychology,6,4,112,4.6,4
+B124,What If?: Serious Scientific Answers to Absurd Hypothetical Questions,Randall Munroe,General Non-Fiction,6,3,113,4.7,1
+B125,The Immortal Life of Henrietta Lacks,Rebecca Skloot,General Non-Fiction,4,3,113,4.7,3
+B126,Alexander Hamilton,Ron Chernow,Biography & History,4,2,118,4.8,1
+B127,Dog Man: For Whom the Ball Rolls: From the Creator of Captain Underpants (Dog Man #7),Dav Pilkey,Young Readers & Fantasy,5,2,113,4.9,3
+B128,The Unofficial Harry Potter Cookbook: From Cauldron Cakes to Knickerbocker Glory--More Than 150 Magical Recipes for…,Dinah Bucholz,Young Readers & Fantasy,5,3,112,4.7,4
+B129,Water for Elephants: A Novel,Sara Gruen,Fiction & Literature,4,2,111,4.5,1
+B130,The Day the Crayons Quit,Drew Daywalt,Fiction & Literature,6,4,115,4.8,1
+B131,Killing the Rising Sun: How America Vanquished World War II Japan (Bill O'Reilly's Killing Series),Bill O'Reilly,Biography & History,4,4,116,4.8,0
+B132,The Wonderful Things You Will Be,Emily Winfield Martin,Young Readers & Fantasy,5,4,113,4.9,1
+B133,Goodnight Moon,Margaret Wise Brown,Fiction & Literature,4,2,116,4.8,2
+B134,The Lost Symbol,Dan Brown,Fiction & Literature,4,4,114,4.2,0
+B135,Killing Kennedy: The End of Camelot,Bill O'Reilly,Biography & History,5,3,111,4.6,2
+B136,The Guernsey Literary and Potato Peel Pie Society,Mary Ann Shaffer,Fiction & Literature,4,3,113,4.7,2
+B137,"Publication Manual of the American Psychological Association, 6th Edition",American Psychological Association,General Non-Fiction,6,2,114,4.5,2
+B138,Looking for Alaska,John Green,Young Readers & Fantasy,4,4,115,4.5,0
+B139,Killers of the Flower Moon: The Osage Murders and the Birth of the FBI,David Grann,General Non-Fiction,5,3,111,4.6,1
+B140,What Should Danny Do? (The Power to Choose Series),Adir Levy,Fiction & Literature,5,4,112,4.8,2
+B141,No Easy Day: The Autobiography of a Navy Seal: The Firsthand Account of the Mission That Killed Osama Bin Laden,Mark Owen,Biography & History,6,3,110,4.6,4
+B142,The Book with No Pictures,B. J. Novak,Fiction & Literature,4,2,109,4.8,4
+B143,Difficult Riddles For Smart Kids: 300 Difficult Riddles And Brain Teasers Families Will Love (Books for Smart Kids),M Prefontaine,General Non-Fiction,5,2,115,4.6,4
+B144,Thirteen Reasons Why,Jay Asher,Fiction & Literature,5,4,111,4.5,4
+B145,National Geographic Little Kids First Big Book of Why (National Geographic Little Kids First Big Books),Amy Shields,General Non-Fiction,4,2,109,4.8,3
+B146,The Magnolia Story,Chip Gaines,General Non-Fiction,4,4,111,4.9,0
+B147,Steve Jobs,Walter Isaacson,Biography & History,4,3,109,4.6,3
+B148,"Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",Samin Nosrat,Health & Wellness,4,2,112,4.8,4
+B149,"Harry Potter and the Goblet of Fire: The Illustrated Edition (Harry Potter, Book 4) (4)",J. K. Rowling,Young Readers & Fantasy,5,3,114,4.9,1
+B150,The Girl Who Kicked the Hornet's Nest (Millennium Trilogy),Stieg Larsson,Fiction & Literature,5,4,110,4.7,3
+B151,"5,000 Awesome Facts (About Everything!) (National Geographic Kids)",National Geographic Kids,Science & Technology,5,2,108,4.8,2
+B152,"Girl, Stop Apologizing: A Shame-Free Plan for Embracing and Achieving Your Goals",Rachel Hollis,General Non-Fiction,5,3,109,4.6,2
+B153,Lettering and Modern Calligraphy: A Beginner's Guide: Learn Hand Lettering and Brush Lettering,Paper Peony Press,General Non-Fiction,4,4,110,4.4,0
+B154,The Whole30: The 30-Day Guide to Total Health and Food Freedom,Melissa Hartwig Urban,General Non-Fiction,5,2,111,4.6,2
+B155,"Wheat Belly: Lose the Wheat, Lose the Weight, and Find Your Path Back to Health",William Davis,General Non-Fiction,6,2,112,4.4,4
+B156,Instant Pot Pressure Cooker Cookbook: 500 Everyday Recipes for Beginners and Advanced Users. Try Easy and Healthy…,Jennifer Smith,Health & Wellness,4,2,110,4.4,1
+B157,The Instant Pot Electric Pressure Cooker Cookbook: Easy Recipes for Fast & Healthy Meals,Laurel Randolph,Health & Wellness,5,2,107,4.3,1
+B158,The Girl Who Played with Fire (Millennium Series),Stieg Larsson,Fiction & Literature,4,4,109,4.7,0
+B159,The Girl Who Played with Fire (Millennium),Stieg Larsson,Fiction & Literature,5,2,110,4.7,3
+B160,Dog Man: Brawl of the Wild: From the Creator of Captain Underpants (Dog Man #6),Dav Pilkey,Young Readers & Fantasy,5,2,113,4.9,4
+B161,If I Stay,Gayle Forman,Fiction & Literature,6,2,107,4.3,3
+B162,Rush Revere and the Brave Pilgrims: Time-Travel Adventures with Exceptional Americans (1),Rush Limbaugh,Fiction & Literature,6,2,107,4.9,2
+B163,It's Not Supposed to Be This Way: Finding Unexpected Strength When Disappointments Leave You Shattered,Lysa TerKeurst,General Non-Fiction,4,3,107,4.8,4
+B164,"The Plant Paradox: The Hidden Dangers in ""Healthy"" Foods That Cause Disease and Weight Gain",Dr. Steven R Gundry MD,Health & Wellness,5,2,107,4.4,3
+B165,"Goodnight, Goodnight Construction Site (Hardcover Books for Toddlers, Preschool Books for Kids)",Sherri Duskey Rinker,Fiction & Literature,4,2,108,4.9,1
+B166,"Things That Matter: Three Decades of Passions, Pastimes and Politics [Deckled Edge]",Charles Krauthammer,General Non-Fiction,4,4,108,4.7,0
+B167,Laugh-Out-Loud Jokes for Kids,Rob Elliott,General Non-Fiction,5,4,109,4.6,4
+B168,"The House of Hades (Heroes of Olympus, Book 4)",Rick Riordan,Young Readers & Fantasy,6,3,109,4.8,3
+B169,"Diary of a Wimpy Kid: Hard Luck, Book 8",Jeff Kinney,Young Readers & Fantasy,4,4,110,4.8,0
+B170,Under the Dome: A Novel,Stephen King,Fiction & Literature,4,4,109,4.3,0
+B171,"Diagnostic and Statistical Manual of Mental Disorders, 5th Edition: DSM-5",American Psychiatric Association,General Non-Fiction,4,4,109,4.5,0
+B172,Whose Boat Is This Boat?: Comments That Don't Help in the Aftermath of a Hurricane,The Staff of The Late Show with,Science & Technology,6,2,105,4.6,1
+B173,The Blood of Olympus (The Heroes of Olympus (5)),Rick Riordan,Young Readers & Fantasy,5,4,106,4.8,2
+B174,Diary of a Wimpy Kid: The Long Haul,Jeff Kinney,Young Readers & Fantasy,5,2,111,4.8,3
+B175,"The Third Wheel (Diary of a Wimpy Kid, Book 7)",Jeff Kinney,Young Readers & Fantasy,4,4,111,4.7,0
+B176,"Eat to Live: The Amazing Nutrient-Rich Program for Fast and Sustained Weight Loss, Revised Edition",Joel Fuhrman MD,Health & Wellness,5,4,106,4.5,4
+B177,Allegiant,Veronica Roth,Fiction & Literature,5,3,104,3.9,4
+B178,"The Mark of Athena (Heroes of Olympus, Book 3)",Rick Riordan,Young Readers & Fantasy,4,3,104,4.8,3
+B179,The Litigators,John Grisham,Fiction & Literature,4,3,109,4.4,1
+B180,Old School (Diary of a Wimpy Kid #10),Jeff Kinney,Young Readers & Fantasy,6,3,105,4.8,2
+B181,The Wright Brothers,David McCullough,General Non-Fiction,4,2,108,4.7,2
+B182,Crazy Rich Asians (Crazy Rich Asians Trilogy),Kevin Kwan,Fiction & Literature,4,2,106,4.3,2
+B183,"Lean In: Women, Work, and the Will to Lead",Sheryl Sandberg,General Non-Fiction,4,4,107,4.5,0
+B184,Unicorn Coloring Book: For Kids Ages 4-8 (US Edition) (Silly Bear Coloring Books),Silly Bear,Young Readers & Fantasy,4,2,110,4.8,4
+B185,Fear: Trump in the White House,Bob Woodward,General Non-Fiction,5,4,106,4.4,3
+B186,"A Higher Loyalty: Truth, Lies, and Leadership",James Comey,Biography & History,5,4,107,4.7,3
+B187,Tina Fey: Bossypants,Tina Fey,General Non-Fiction,5,4,104,4.3,3
+B188,"Grain Brain: The Surprising Truth about Wheat, Carbs, and Sugar--Your Brain's Silent Killers",David Perlmutter MD,Health & Wellness,6,2,108,4.6,1
+B189,Unfreedom of the Press,Mark R. Levin,General Non-Fiction,5,3,104,4.9,4
+B190,The Meltdown (Diary of a Wimpy Kid Book 13),Jeff Kinney,Young Readers & Fantasy,4,4,106,4.8,0
+B191,Hamilton: The Revolution,Lin-Manuel Miranda,General Non-Fiction,6,2,103,4.9,3
+B192,The Getaway,Jeff Kinney,Young Readers & Fantasy,5,2,107,4.8,3
+B193,New Moon (The Twilight Saga),Stephenie Meyer,Young Readers & Fantasy,4,2,105,4.6,4
+B194,Game of Thrones Boxed Set: A Game of Thrones/A Clash of Kings/A Storm of Swords/A Feast for Crows,George R.R. Martin,Fiction & Literature,5,2,102,4.6,2
+B195,Mindset: The New Psychology of Success,Carol S. Dweck,Self Help & Psychology,4,2,103,4.6,1
+B196,Eclipse (Twilight),Stephenie Meyer,Young Readers & Fantasy,4,3,108,4.7,1
+B197,Eclipse (Twilight Sagas),Stephenie Meyer,Young Readers & Fantasy,4,4,104,4.7,0
+B198,What Happened,Hillary Rodham Clinton,General Non-Fiction,4,3,104,4.6,3
+B199,The Sun and Her Flowers,Rupi Kaur,General Non-Fiction,4,3,102,4.7,3
+B200,Guts,Raina Telgemeier,General Non-Fiction,4,2,107,4.8,2
+B201,Dog Man: Lord of the Fleas: From the Creator of Captain Underpants (Dog Man #5),Dav Pilkey,Young Readers & Fantasy,6,4,106,4.9,1
+B202,"Enchanted Forest: An Inky Quest and Coloring book (Activity Books, Mindfulness and Meditation, Illustrated Floral Prints…",Johanna Basford,Young Readers & Fantasy,5,3,103,4.7,4
+B203,The Legend of Zelda: Hyrule Historia,Patrick Thorpe,Fiction & Literature,4,3,104,4.9,4
+B204,Baby Touch and Feel: Animals,DK,General Non-Fiction,5,3,104,4.6,4
+B205,"National Geographic Kids Why?: Over 1,111 Answers to Everything",Crispin Boyer,General Non-Fiction,4,2,102,4.8,4
+B206,Inheritance: Book IV (Inheritance Cycle),Christopher Paolini,Fiction & Literature,5,4,103,4.6,1
+B207,Howard Stern Comes Again,Howard Stern,General Non-Fiction,4,2,101,4.3,4
+B208,The Going-To-Bed Book,Sandra Boynton,Fiction & Literature,4,2,105,4.8,2
+B209,Killing Reagan: The Violent Assault That Changed a Presidency (Bill O'Reilly's Killing Series),Bill O'Reilly,Biography & History,4,3,103,4.6,2
+B210,Night (Night),Elie Wiesel,General Non-Fiction,4,4,102,4.7,0
+B211,A Wrinkle in Time (Time Quintet),Madeleine L'Engle,Fiction & Literature,5,3,100,4.5,4
+B212,Double Down (Diary of a Wimpy Kid #11),Jeff Kinney,Young Readers & Fantasy,5,4,105,4.8,1
+B213,StrengthsFinder 2.0,Gallup,Business & Finance,6,2,104,4.0,2
+B214,Dog Man and Cat Kid: From the Creator of Captain Underpants (Dog Man #4),Dav Pilkey,Young Readers & Fantasy,5,4,100,4.9,1
+B215,"Act Like a Lady, Think Like a Man: What Men Really Think About Love, Relationships, Intimacy, and Commitment",Steve Harvey,General Non-Fiction,4,3,102,4.6,3
+B216,"Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened",Allie Brosh,General Non-Fiction,5,4,99,4.7,3
+B217,Cutting for Stone,Abraham Verghese,Fiction & Literature,4,2,99,4.6,2
+B218,George Washington's Secret Six: The Spy Ring That Saved the American Revolution,Brian Kilmeade,Self Help & Psychology,6,4,99,4.6,1
+B219,Dog Man: A Tale of Two Kitties: From the Creator of Captain Underpants (Dog Man #3),Dav Pilkey,Young Readers & Fantasy,6,3,103,4.9,4
+B220,Cravings: Recipes for All the Food You Want to Eat: A Cookbook,Chrissy Teigen,Health & Wellness,4,4,99,4.7,0
+B221,Puppy Birthday to You! (Paw Patrol) (Little Golden Book),Golden Books,Fiction & Literature,5,4,103,4.8,1
+B222,Joyland (Hard Case Crime),Stephen King,Fiction & Literature,4,2,105,4.5,1
+B223,"David and Goliath: Underdogs, Misfits, and the Art of Battling Giants",Malcolm Gladwell,General Non-Fiction,5,4,99,4.4,1
+B224,The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet…,Thomas Campbell,Health & Wellness,5,2,102,4.7,2
+B225,"The Last Olympian (Percy Jackson and the Olympians, Book 5)",Rick Riordan,Young Readers & Fantasy,6,2,98,4.8,1
+B226,"The 4 Hour Body: An Uncommon Guide to Rapid Fat Loss, Incredible Sex and Becoming Superhuman",Timothy Ferriss,Biography & History,5,2,101,4.3,1
+B227,"Uninvited: Living Loved When You Feel Less Than, Left Out, and Lonely",Lysa TerKeurst,General Non-Fiction,6,4,99,4.7,2
+B228,"In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin",Eric Larson,General Non-Fiction,5,3,99,4.4,2
+B229,Olive Kitteridge,Elizabeth Strout,Fiction & Literature,5,5,100,4.2,0
+B230,"The Lost Hero (Heroes of Olympus, Book 1)",Rick Riordan,Young Readers & Fantasy,3,3,101,4.8,0
+B231,"Cabin Fever (Diary of a Wimpy Kid, Book 6)",Jeff Kinney,Young Readers & Fantasy,3,3,101,4.8,0
+B232,Fantastic Beasts and Where to Find Them: The Original Screenplay (Harry Potter),J.K. Rowling,Young Readers & Fantasy,5,4,102,4.7,1
+B233,"Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers",Timothy Ferriss,Self Help & Psychology,5,4,103,4.6,3
+B234,"The Son of Neptune (Heroes of Olympus, Book 2)",Rick Riordan,Young Readers & Fantasy,3,3,101,4.8,0
+B235,The Lego Ideas Book: Unlock Your Imagination,Daniel Lipkowitz,General Non-Fiction,5,4,97,4.4,3
+B236,A Stolen Life: A Memoir,Jaycee Dugard,Biography & History,4,4,101,4.6,0
+B237,"Happy, Happy, Happy: My Life and Legacy as the Duck Commander",Phil Robertson,General Non-Fiction,4,4,97,4.8,0
+B238,The Last Lecture,Randy Pausch,General Non-Fiction,5,4,100,4.7,3
+B239,Creative Haven Creative Cats Coloring Book (Adult Coloring),Marjorie Sarnat,Young Readers & Fantasy,4,4,101,4.8,0
+B240,Ship of Fools: How a Selfish Ruling Class Is Bringing America to the Brink of Revolution,Tucker Carlson,General Non-Fiction,4,3,95,4.8,4
+B241,Creative Haven Owls Coloring Book (Adult Coloring),Marjorie Sarnat,Young Readers & Fantasy,4,3,101,4.8,2
+B242,Diary of a Wimpy Kid: The Last Straw (Book 3),Jeff Kinney,Young Readers & Fantasy,3,2,96,4.8,1
+B243,Rush Revere and the First Patriots: Time-Travel Adventures With Exceptional Americans (2),Rush Limbaugh,Fiction & Literature,4,4,97,4.9,0
+B244,Watchmen,Alan Moore,Fiction & Literature,4,3,94,4.8,4
+B245,Liberty and Tyranny: A Conservative Manifesto,Mark R. Levin,General Non-Fiction,3,3,97,4.8,0
+B246,The Twilight Saga Collection,Stephenie Meyer,Young Readers & Fantasy,3,3,99,4.7,0
+B247,"The Ugly Truth (Diary of a Wimpy Kid, Book 5)",Jeff Kinney,Young Readers & Fantasy,4,3,98,4.8,3
+B248,Homebody: A Guide to Creating Spaces You Never Want to Leave,Joanna Gaines,General Non-Fiction,5,4,96,4.8,1
+B249,The Paris Wife: A Novel,Paula McLain,Fiction & Literature,5,5,100,4.3,0
+B250,The Time Traveler's Wife,Audrey Niffenegger,Fiction & Literature,5,5,100,4.4,0
+B251,Born to Run,Bruce Springsteen,Biography & History,3,2,97,4.7,4
+B252,Knock-Knock Jokes for Kids,Rob Elliott,General Non-Fiction,5,4,95,4.5,4
+B253,Frozen (Little Golden Book),RH Disney,Fiction & Literature,3,3,94,4.7,0
+B254,Sarah's Key,Tatiana de Rosnay,Fiction & Literature,5,4,95,4.6,1
+B255,"The Plant Paradox Cookbook: 100 Delicious Recipes to Help You Lose Weight, Heal Your Gut, and Live Lectin-Free",Dr. Steven R Gundry MD,Health & Wellness,4,3,94,4.5,2
+B256,Harry Potter Coloring Book,Scholastic,Young Readers & Fantasy,4,3,97,4.7,1
+B257,The Big Short: Inside the Doomsday Machine,Michael Lewis,General Non-Fiction,4,4,93,4.7,0
+B258,The Confession: A Novel,John Grisham,Fiction & Literature,3,3,94,4.3,0
+B259,Pokémon Deluxe Essential Handbook: The Need-to-Know Stats and Facts on Over 700 Pokémon,Scholastic,Science & Technology,3,2,94,4.7,1
+B260,The Tipping Point: How Little Things Can Make a Big Difference,Malcolm Gladwell,Business & Finance,3,2,94,4.4,1
+B261,Humans of New York,Brandon Stanton,General Non-Fiction,5,5,97,4.8,0
+B262,The 5 Love Languages: The Secret to Love That Lasts,Gary Chapman,Self Help & Psychology,5,4,97,4.7,4
+B263,Good to Great: Why Some Companies Make the Leap and Others Don't,Jim Collins,General Non-Fiction,3,3,96,4.5,0
+B264,"The Pioneer Woman Cooks: Dinnertime - Comfort Classics, Freezer Food, 16-minute Meals, and Other Delicious Ways to Solve…",Ree Drummond,Health & Wellness,3,3,95,4.8,0
+B265,What to Expect When You're Expecting,Heidi Murkoff,General Non-Fiction,5,4,92,4.4,4
+B266,Three Cups of Tea: One Man's Mission to Promote Peace - One School at a Time,Greg Mortenson,General Non-Fiction,5,4,97,4.3,4
+B267,The Five Dysfunctions of a Team: A Leadership Fable,Patrick Lencioni,General Non-Fiction,4,4,96,4.6,0
+B268,Obama: An Intimate Portrait,Pete Souza,General Non-Fiction,5,5,94,4.9,0
+B269,"Dog Days (Diary of a Wimpy Kid, Book 4) (Volume 4)",Jeff Kinney,Young Readers & Fantasy,3,3,92,4.8,0
+B270,One Thousand Gifts: A Dare to Live Fully Right Where You Are,Ann Voskamp,General Non-Fiction,5,5,95,4.6,0
+B271,"Harry Potter and the Prisoner of Azkaban: The Illustrated Edition (Harry Potter, Book 3)",J.K. Rowling,Young Readers & Fantasy,5,4,92,4.9,3
+B272,Milk and Vine: Inspirational Quotes From Classic Vines,Adam Gasiewski,General Non-Fiction,4,3,96,4.4,3
+B273,Leonardo da Vinci,Walter Isaacson,Biography & History,3,3,93,4.5,0
+B274,Adult Coloring Book: Stress Relieving Patterns,Blue Star Coloring,Young Readers & Fantasy,4,3,90,4.4,3
+B275,"Mastering the Art of French Cooking, Vol. 2",Julia Child,Health & Wellness,3,2,95,4.8,1
+B276,Adult Coloring Book: Stress Relieving Animal Designs,Blue Star Coloring,Young Readers & Fantasy,4,3,92,4.6,1
+B277,Capital in the Twenty First Century,Thomas Piketty,Business & Finance,5,5,89,4.5,0
+B278,The Pioneer Woman Cooks: Food from My Frontier,Ree Drummond,Health & Wellness,4,4,90,4.8,0
+B279,Humans of New York : Stories,Brandon Stanton,General Non-Fiction,3,2,88,4.9,4
+B280,The Constitution of the United States,Delegates of the Constitutional,General Non-Fiction,4,3,88,4.8,1
+B281,Life,Keith Richards,General Non-Fiction,4,3,92,4.5,4
+B282,The Mueller Report,The Washington Post,General Non-Fiction,4,4,94,4.6,0
+B283,"The Pioneer Woman Cooks: A Year of Holidays: 140 Step-by-Step Recipes for Simple, Scrumptious Celebrations",Ree Drummond,Health & Wellness,3,3,93,4.8,0
+B284,Ultimate Sticker Book: Frozen: More Than 60 Reusable Full-Color Stickers,DK,Fiction & Literature,4,3,88,4.5,1
+B285,The Amateur,Edward Klein,General Non-Fiction,4,4,91,4.6,0
+B286,Drive: The Surprising Truth About What Motivates Us,Daniel H. Pink,General Non-Fiction,5,5,87,4.5,0
+B287,Kitchen Confidential Updated Edition: Adventures in the Culinary Underbelly (P.S.),Anthony Bourdain,General Non-Fiction,3,3,88,4.8,0
+B288,"Adult Coloring Books: A Coloring Book for Adults Featuring Mandalas and Henna Inspired Flowers, Animals, and Paisley…",Coloring Books for Adults,Young Readers & Fantasy,3,2,89,4.5,1
+B289,The 17 Day Diet: A Doctor's Plan Designed for Rapid Results,Mike Moreno,Health & Wellness,3,3,89,4.3,0
+B290,"Adult Coloring Book Designs: Stress Relief Coloring Book: Garden Designs, Mandalas, Animals, and Paisley Patterns",Adult Coloring Book Designs,Young Readers & Fantasy,5,5,89,4.5,0
+B291,"Towers of Midnight (Wheel of Time, Book Thirteen)",Robert Jordan,Fiction & Literature,4,3,87,4.8,2
+B292,Shred: The Revolutionary Diet: 6 Weeks 4 Inches 2 Sizes,Ian K. Smith M.D.,Health & Wellness,4,3,89,4.1,4
+B293,"The Red Pyramid (The Kane Chronicles, Book 1)",Rick Riordan,Young Readers & Fantasy,3,2,89,4.6,3
+B294,Decision Points,George W. Bush,General Non-Fiction,5,5,85,4.6,0
+B295,Dover Creative Haven Art Nouveau Animal Designs Coloring Book (Creative Haven Coloring Books),Marty Noble,Young Readers & Fantasy,5,5,87,4.6,0
+B296,The Short Second Life of Bree Tanner: An Eclipse Novella (The Twilight Saga),Stephenie Meyer,Young Readers & Fantasy,5,5,84,4.6,0
+B297,"Dead Reckoning (Sookie Stackhouse/True Blood, Book 11)",Charlaine Harris,Fiction & Literature,4,4,88,4.2,0
+B298,"The Serpent's Shadow (The Kane Chronicles, Book 3)",Rick Riordan,Young Readers & Fantasy,4,4,82,4.8,0
+B299,11/22/63: A Novel,Stephen King,Fiction & Literature,5,5,87,4.6,0
+B300,"The Dukan Diet: 2 Steps to Lose the Weight, 2 Steps to Keep It Off Forever",Pierre Dukan,Health & Wellness,4,3,82,4.1,3
+B301,Radical: Taking Back Your Faith from the American Dream,David Platt,General Non-Fiction,5,4,82,4.7,4
+B302,Have a Little Faith: A True Story,Mitch Albom,General Non-Fiction,4,4,85,4.8,0
+B303,"Dead in the Family (Sookie Stackhouse/True Blood, Book 10)",Charlaine Harris,Fiction & Literature,5,5,86,4.3,0
+B304,Balance (Angie's Extreme Stress Menders),Angie Grace,General Non-Fiction,3,3,80,4.6,0
+B305,Switch: How to Change Things When Change Is Hard,Chip Heath,General Non-Fiction,3,3,86,4.6,0
+B306,Thomas Jefferson: The Art of Power,Jon Meacham,General Non-Fiction,4,3,85,4.5,2
+B307,Little Blue Truck,Alice Schertle,Fiction & Literature,5,5,82,4.9,0
+B308,What Pet Should I Get? (Classic Seuss),Dr. Seuss,Young Readers & Fantasy,5,4,84,4.7,1
+B309,The Elegance of the Hedgehog,Muriel Barbery,Fiction & Literature,4,4,85,4.0,0
+B310,"Option B: Facing Adversity, Building Resilience, and Finding Joy",Sheryl Sandberg,General Non-Fiction,3,2,81,4.5,2
+B311,"The Blood Sugar Solution: The UltraHealthy Program for Losing Weight, Preventing Disease, and Feeling Great Now!",Mark Hyman M.D.,General Non-Fiction,4,3,82,4.2,4
+B312,The 5000 Year Leap,W. Cleon Skousen,General Non-Fiction,3,2,79,4.8,1
+B313,The Love Dare,Stephen Kendrick,General Non-Fiction,3,2,78,4.8,3
+B314,"Delivering Happiness: A Path to Profits, Passion, and Purpose",Tony Hsieh,General Non-Fiction,4,3,83,4.6,3
+B315,"Love Wins: A Book About Heaven, Hell, and the Fate of Every Person Who Ever Lived",Rob Bell,General Non-Fiction,5,4,82,4.2,1
+B316,Going Rogue: An American Life,Sarah Palin,General Non-Fiction,4,4,82,4.6,0
+B317,"Super Freakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance",Steven D. Levitt,General Non-Fiction,5,4,81,4.5,2
+B318,Food Rules: An Eater's Manual,Michael Pollan,General Non-Fiction,5,4,79,4.4,1
+B319,Crazy Love: Overwhelmed by a Relentless God,Francis Chan,General Non-Fiction,3,3,81,4.7,0
+B320,Dead And Gone: A Sookie Stackhouse Novel (Sookie Stackhouse/True Blood),Charlaine Harris,Fiction & Literature,3,2,78,4.6,2
+B321,Little Bee: A Novel,Chris Cleave,Fiction & Literature,4,3,78,4.1,1
+B322,"The Throne of Fire (The Kane Chronicles, Book 2)",Rick Riordan,Young Readers & Fantasy,3,2,79,4.7,3
+B323,Make It Ahead: A Barefoot Contessa Cookbook,Ina Garten,Health & Wellness,4,4,79,4.5,0
+B324,"Glenn Beck's Common Sense: The Case Against an Out-of-Control Government, Inspired by Thomas Paine",Glenn Beck,General Non-Fiction,3,2,77,4.6,2
+B325,"Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",Brené Brown,Self Help & Psychology,4,4,73,4.8,0
+B326,"I, Alex Cross",James Patterson,Fiction & Literature,4,4,79,4.6,0
+B327,Women Food and God: An Unexpected Path to Almost Everything,Geneen Roth,General Non-Fiction,3,3,75,4.2,0
+B328,Barefoot Contessa Foolproof: Recipes You Can Trust: A Cookbook,Ina Garten,Health & Wellness,5,4,73,4.8,3
+B329,Sh*t My Dad Says,Justin Halpern,General Non-Fiction,3,2,72,4.7,1
+B330,"Game Change: Obama and the Clintons, McCain and Palin, and the Race of a Lifetime",John Heilemann,General Non-Fiction,5,5,77,4.4,0
+B331,"The Road to Serfdom: Text and Documents--The Definitive Edition (The Collected Works of F. A. Hayek, Volume 2)",F. A. Hayek,General Non-Fiction,3,3,76,4.6,0
+B332,The Official SAT Study Guide,The College Board,General Non-Fiction,5,4,73,4.4,2
+B333,JOURNEY TO THE ICE P,RH Disney,Fiction & Literature,5,4,72,4.6,3
+B334,Sookie Stackhouse,Charlaine Harris,Fiction & Literature,5,4,68,4.7,1
+B335,"Eat This, Not That! Thousands of Simple Food Swaps that Can Save You 10, 20, 30 Pounds--or More!",David Zinczenko,General Non-Fiction,4,3,67,4.3,3
+B336,The Book of Basketball: The NBA According to The Sports Guy,Bill Simmons,General Non-Fiction,3,3,67,4.7,0
+B337,"The Official SAT Study Guide, 2016 Edition (Official Study Guide for the New Sat)",The College Board,General Non-Fiction,3,2,63,4.3,1
+B338,The Five Love Languages: How to Express Heartfelt Commitment to Your Mate,Gary Chapman,General Non-Fiction,5,4,65,4.6,2
+B339,Arguing with Idiots: How to Stop Small Minds and Big Government,Glenn Beck,General Non-Fiction,4,4,66,4.6,0
+B340,Eat This Not That! Supermarket Survival Guide: The No-Diet Weight Loss Solution,David Zinczenko,Health & Wellness,3,2,62,4.5,2
+B341,Teach Like a Champion: 49 Techniques that Put Students on the Path to College,Doug Lemov,General Non-Fiction,4,4,58,4.4,0
+B342,"Barefoot Contessa, How Easy Is That?: Fabulous Recipes & Easy Tips",Ina Garten,Health & Wellness,5,4,62,4.7,4
+B343,Percy Jackson and the Olympians Paperback Boxed Set (Books 1-3),Rick Riordan,Young Readers & Fantasy,5,4,59,4.8,4
+B344,"Autobiography of Mark Twain, Vol. 1",Mark Twain,Biography & History,3,2,57,4.2,4
+B345,"Broke: The Plan to Restore Our Trust, Truth and Treasure",Glenn Beck,General Non-Fiction,3,3,55,4.5,0
+B346,A Patriot's History of the United States: From Columbus's Great Discovery to the War on Terror,Larry Schweikart,General Non-Fiction,5,4,54,4.6,3
+B347,The Daily Show with Jon Stewart Presents Earth (The Book): A Visitor's Guide to the Human Race,Jon Stewart,General Non-Fiction,4,3,54,4.4,3
+B348,True Compass: A Memoir,Edward M. Kennedy,Biography & History,5,5,55,4.5,0
+B349,George Washington's Sacred Fire,Peter A. Lillback,General Non-Fiction,4,4,51,4.5,0
+B350,"Soul Healing Miracles: Ancient and New Sacred Wisdom, Knowledge, and Practical Techniques for Healing the Spiritual…",Zhi Gang Sha,General Non-Fiction,5,5,43,4.6,0
+B351,"Divine Soul Mind Body Healing and Transmission System: The Divine Way to Heal You, Humanity, Mother Earth, and All…",Zhi Gang Sha,General Non-Fiction,5,5,7,4.6,0
